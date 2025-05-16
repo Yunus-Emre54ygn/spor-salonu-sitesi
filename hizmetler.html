@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmreGym | Hizmetlerimiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    :root {
+      --ilk-color: #F55600;
+      --ikinci-color: #F5C400;
+      --dark-color: #140C00;
+      --light-text: #F5F5F5;
+    }
+
+    body {
+      background-color: var(--dark-color);
+      color: var(--light-text);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      background-color: var(--dark-color);
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-nav .nav-link {
+      color: var(--light-text);
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: var(--ikinci-color);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: var(--ikinci-color);
+      transition: 0.5s;
+    }
+
+    .navbar-brand:hover {
+      color: var(--ilk-color);
+      transform: scale(1.05);
+      text-shadow: 0px 0px 8px var(--ilk-color),
+                   0px 0px 16px var(--ilk-color),
+                   0px 0px 26px var(--ilk-color),
+                   0px 0px 40px var(--ilk-color);
+    }
+
+    .nav-kutu {
+      padding: 10px 20px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .nav-kutu:hover {
+      background-color: var(--ilk-color);
+      transform: scale(1.05);
+    }
+
+    .card {
+      background-color: var(--dark-color);
+      color: var(--light-text);
+      border: 1px solid var(--ilk-color);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card-title {
+      color: var(--ikinci-color);
+    }
+
+    footer {
+      background-color: #000;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .Emre {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  user-select: none;
+  filter: drop-shadow(1px 1px 0px var(--ilk-color));
+}
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        
+      <a class="navbar-brand d-flex align-items-center gap-2 text-warning" href="index.htm">
+      <img src="img/logo3.png" class="Emre" alt="profil" style="max-width: 40px; max-height: 40px;" />
+      EmreGym
+    </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        
+        <div class="nav-kutu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+        </div>
+        
+        <div class="nav-kutu">
+          <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+        </div>
+        
+        <div class="nav-kutu">
+          <li class="nav-item"><a class="nav-link" href="hizmetler.html">Hizmetler</a></li>
+        </div>
+        
+        <div class="nav-kutu"> 
+          <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        </div>
+        
+        <div class="nav-kutu"> 
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+        </div>
+        
+    </ul>
+    </div>
+    </div>
+  </nav>
+
+  
+  <section class="container text-center py-5">
+    <h2 class="text-warning mb-4">Hizmetlerimiz</h2>
+    <p class="lead">EmreGym olarak size en iyi hizmeti sunmak için buradayız.</p>
+  </section>
+
+  
+  <section class="container py-4">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Kişisel Antrenör</h5>
+            <p class="card-text">Uzman eğitmenler eşliğinde birebir çalışma fırsatı ile hedeflerinize ulaşın.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Beslenme Danışmanlığı</h5>
+            <p class="card-text">Vücudunuza uygun diyet ve supplement programları ile sağlıklı yaşayın.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Grup Dersleri</h5>
+            <p class="card-text">Zumba, pilates, yoga gibi sosyal grup aktiviteleri ile sporu eğlenceye dönüştürün.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container mt-5 text-center">
+    <div style="border: 2px solid var(--ikinci-color); padding: 20px; border-radius: 20px; background-color: var(--dark-color); color: var(--light-text);">
+      <h4 style="color: var(--ilk-color);">Senin Hedefin, Bizim Yolumuz</h4>
+      <p>EmreGym ailesi olarak spor yolculuğunda her adımda seninleyiz.</p>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EmreGym - Tüm Hakları Saklıdır</p>
+      <p id="created" style="text-align: right;color:#cccccc71;">Developed by Yunus Emre YIĞIN</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

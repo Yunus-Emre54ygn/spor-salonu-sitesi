@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmreGym Spor Salonu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+    :root {
+      --ilk-color: #F55600;
+      --ikinci-color: #F5C400;
+      --dark-color: #140C00;
+      --light-text: #F5F5F5;
+    }
+
+    body {
+      background-color: var(--dark-color);
+      color: var(--light-text);
+    }
+
+    section{
+        user-select: none;
+    }
+
+   
+    .navbar-nav .nav-link {
+      color: var(--light-text);
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: var(--ikinci-color);
+      padding: none;
+      display: flex;
+      height: auto;
+    }
+
+    .btn-ilk {
+      background-color: var(--ilk-color);
+      border: none;
+    }
+
+    .btn-ilk:hover {
+      background-color: var(--ikinci-color);
+      color: var(--ilk-color);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      transition: 0.5s;
+    }
+
+    footer {
+      background-color: #000;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+.nav-item:hover {
+    color: var(--ikinci-color);
+
+  }
+  
+  
+.navbar {
+  background-color: var(--dark-color);
+  min-height: 70px; 
+  display: flex;
+  align-items: center; 
+}
+
+
+.nav-kutu {
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+
+.nav-kutu:hover {
+  background-color: var(--ilk-color);
+  transform: scale(1.05); 
+}
+
+  .navbar-brand {
+      font-weight: bold;
+      color: var(--ikinci-color);
+      transition: 0.5s;
+    }
+
+    .navbar-brand:hover {
+      color: var(--ilk-color);
+      transform: scale(1.05);
+      text-shadow: 0px 0px 8px var(--ilk-color),
+                   0px 0px 16px var(--ilk-color),
+                   0px 0px 26px var(--ilk-color),
+                   0px 0px 40px var(--ilk-color);
+    }
+
+
+
+  .card-body{
+    user-select: none;
+    min-height: 112px;
+ }
+ .slider-yazi{
+    user-select: none;
+    font-family: "Poppins",sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1.6px var(--ikinci-color);
+    color: transparent;
+    text-shadow: 2px 2px 0px var(--ilk-color),
+                 4px 4px 0px var(--dark-color);
+ } 
+ .Emre {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  user-select: none;
+  filter: drop-shadow(1px 1px 0px var(--ilk-color));
+}
+
+ .class-profil{
+    align-items:baseline;
+    border-radius: 0px;
+    user-select: none;
+    padding: 0px;
+    max-width:50px;
+    max-height:50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    filter: drop-shadow(1px 1px 0px var(--ilk-color));
+ }
+ 
+
+ 
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+
+   
+    <a class="navbar-brand d-flex align-items-center gap-2 text-warning" href="index.htm">
+      <img src="img/logo3.png" class="Emre" alt="profil" style="max-width: 40px; max-height: 40px;" />
+      EmreGym
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <div class="nav-kutu">
+          <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+        </div>
+
+        <div class="nav-kutu">
+          <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+        </div>
+
+        <div class="nav-kutu">
+          <li class="nav-item"><a class="nav-link" href="hizmetler.html">Hizmetler</a></li>
+        </div>
+
+        <div class="nav-kutu"> 
+          <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        </div>
+
+        <div class="nav-kutu"> 
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+        </div>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+ 
+ 
+  
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slider1.jpg" class="d-block w-100"  style="height: 500px; object-fit: cover; object-position: center 30%;" alt="Grup Dersi">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-yazi">Grup Dersleri ile Motive Ol!</h5>
+          <p class="slider-yazi">Profesyonel eğitmenlerle yüksek tempolu antrenmanlar</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider2.jpg" class="d-block w-100" style="height: 500px; object-fit: cover; object-position: center 30%;" alt="Antrenör Desteği">
+
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-yazi">Kişisel Antrenör Desteği</h5>
+          <p class="slider-yazi">Hedefine özel egzersiz planları</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slider3.jpg" class="d-block w-100" style="height: 500px; object-fit: cover; object-position: center 15%;" alt="Üyelik Kampanyası">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="slider-yazi">Üyelik Kampanyaları Başladı!</h5>
+          <p class="slider-yazi">Hemen kaydol, fırsatları kaçırma</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  
+  
+  
+  
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="text-warning">EmreGym'e Hoşgeldiniz</h2>
+      <p>Sağlıklı bir yaşam için şimdi harekete geç! En iyi eğitmenlerle, en iyi ekipmanlarla senin için buradayız.</p>
+      <a href="hakkimizda.htm" class="btn btn-ilk">Daha Fazla Bilgi</a>
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+  <section class="py-5 bg-dark">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Kişisel Antrenör</h5>
+              <p class="card-text">Sana özel egzersiz ve beslenme programlarıyla hedefe ulaş.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Grup Dersleri</h5>
+              <p class="card-text">Zumba, pilates, spinning gibi eğlenceli grup aktiviteleriyle enerji kazan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-secondary text-white mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Diyetisyen Desteği</h5>
+              <p class="card-text">Sağlıklı beslenme için uzman kontrolü ve tavsiyeler.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EmreGym Spor Salonu | Tüm hakları saklıdır.</p>
+       <p id="created" style="text-align: right;color:#cccccc71;">Developed by Yunus Emre YIĞIN</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

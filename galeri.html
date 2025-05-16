@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmreGym | Galerimiz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ilk-color: #C14B0B; 
+      --ikinci-color: #D7B633; 
+      --dark-color: #0E0B07; 
+      --light-text: #F5F5F5;
+    }
+
+    body {
+      background-color: var(--dark-color);
+      font-family: 'Poppins', sans-serif;
+      color: var(--light-text);
+    }
+
+    .navbar {
+      background-color: var(--dark-color);
+      min-height: 70px;
+    }
+
+    .navbar-nav .nav-link {
+      color: var(--light-text);
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: var(--ikinci-color);
+    }
+
+     .navbar-brand {
+      font-weight: bold;
+      color: var(--ikinci-color);
+      transition: 0.5s;
+    }
+
+    .navbar-brand:hover {
+      color: var(--ilk-color);
+      transform: scale(1.05);
+      text-shadow: 0px 0px 8px var(--ilk-color),
+                   0px 0px 16px var(--ilk-color),
+                   0px 0px 26px var(--ilk-color),
+                   0px 0px 40px var(--ilk-color);
+    }
+
+    
+
+    .nav-kutu {
+      padding: 10px 20px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      border-radius: 8px;
+    }
+
+    .nav-kutu:hover {
+      background-color: var(--ilk-color);
+      transform: scale(1.05);
+    }
+
+    .pencere {
+      background-color: var(--ikinci-color);
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px black;
+      padding: 10px;
+      margin: 20px auto;
+    }
+
+    .pencere h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 2.5rem;
+      color: var(--dark-color);
+      text-align: center;
+      text-shadow: 1px 1px 2px black;
+    }
+
+    .logo img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      
+    }
+
+    #gorsel-pencere {
+      background-color: var(--dark-color);
+      padding: 20px;
+    }
+
+    #gorseller {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    #gorseller img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 4px solid var(--ilk-color);
+      box-shadow: 0 0 18px var(--ilk-color);
+    }
+
+    #mail {
+      color: var(--ilk-color);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    #mail:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    .arrow {
+      font-size: 1.2em;
+      animation: blink 0.5s infinite alternate;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; color: blue; }
+      100% { opacity: 1; color: black; }
+    }
+
+    footer {
+      background-color: black;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .Emre {
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  user-select: none;
+  filter: drop-shadow(1px 1px 0px var(--ilk-color));
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 text-warning" href="index.htm">
+      <img src="img/logo3.png" class="Emre" alt="profil" style="max-width: 40px; max-height: 40px;" />
+      EmreGym
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <div class="nav-kutu"><li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li></div>
+          <div class="nav-kutu"><li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li></div>
+          <div class="nav-kutu"><li class="nav-item"><a class="nav-link" href="hizmetler.html">Hizmetler</a></li></div>
+          <div class="nav-kutu"><li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li></div>
+          <div class="nav-kutu"><li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li></div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="pencere">
+    <h1>EmreGym</h1>
+    <div class="logo">
+      <img src="img/Adsız2.png" alt="logo">
+    </div>
+    <br>
+    <p style="text-align:center">
+      Siz de Fotoğraflarınızı gönderin sizi de paylaşalım
+      <span class="siren-mail">
+        <span class="arrow">➡</span>
+        <a id="mail" href="mailto:EmreGymMail@gmail.com">EmreGymMail@gmail.com</a>
+        <span class="arrow">⬅</span>
+      </span>
+    </p>
+    <p style="text-align:center">
+      Merhabalar bu bir <strong><u style="color: #0E0B07;">EmreGym</u></strong>'in galeri sayfasıdır. Tüm haklar siteye aittir.
+    </p>
+  </div>
+
+  <section class="pencere">
+    <h1>Görseller</h1>
+    <div id="gorsel-pencere">
+      <div id="gorseller">
+        <img src="img/1.jpg">
+        <img src="img/2.jpeg">
+        <img src="img/3.webp">
+        <img src="img/4.jpg">
+        <img src="img/5.jpg">
+        <img src="img/6.webp">
+        <img src="img/7.webp">
+        <img src="img/8.jpg">
+        <img src="img/9.jpeg">
+        
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EmreGym Spor Salonu | Tüm hakları saklıdır.</p>
+      <p style="text-align: right; color:#cccccc71;">Developed by Yunus Emre YIĞIN</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
