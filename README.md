@@ -24,3 +24,7 @@ Kullanıcıların spor salonunu uzaktan daha iyi tanımasına ve nasıl hizmetle
   
 ## 🌐 Canlı Demo
 [Siteyi Buradan Ziyaret Et](https://yunus-emre54ygn.github.io/spor-salonu-sitesi/)
+
+# Öz Kontrol testi
+![image](https://github.com/user-attachments/assets/69113e96-4083-45c0-9525-7c553bd1d4d6)
+
