@@ -28,8 +28,8 @@ Kullanıcıların spor salonunu uzaktan daha iyi tanımasına ve nasıl hizmetle
 # Öz Kontrol testi
 ![image](https://github.com/user-attachments/assets/69113e96-4083-45c0-9525-7c553bd1d4d6)
 
-## Site Sunum posteri 
-# [Sunum Posterinin Orjinal Pdf Hali](https://github.com/Yunus-Emre54ygn/spor-salonu-sitesi/blob/main/sitenin%20sunum%20posteri.pdf)
+# Site Sunum posteri 
+## [Sunum Posterinin Orjinal Pdf Hali](https://github.com/Yunus-Emre54ygn/spor-salonu-sitesi/blob/main/sitenin%20sunum%20posteri.pdf)
 ![image](https://github.com/user-attachments/assets/ea3e80ad-efe3-4736-b4d4-7bcffe08b445)
 
 
