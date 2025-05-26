@@ -30,6 +30,7 @@ Kullanıcıların spor salonunu uzaktan daha iyi tanımasına ve nasıl hizmetle
 
 # Site Sunum posteri 
 ## [Sunum Posterinin Orjinal Pdf Hali](https://github.com/Yunus-Emre54ygn/spor-salonu-sitesi/blob/main/Site%20Sunum%20Posteri.pdf)
-![image](https://github.com/user-attachments/assets/ea3e80ad-efe3-4736-b4d4-7bcffe08b445)
+![image](https://github.com/user-attachments/assets/37db38d0-8313-4186-b889-766331f5ba84)
+
 
 
